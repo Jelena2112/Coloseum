@@ -11,7 +11,7 @@
     </head>
     <body class="container-fluid">
         <?php $this->load->view("partials/header"); ?>
-
+        <?php $this->load->view($page); ?>
         <?php $this->load->view("partials/footer"); ?>
     </body>
 </html>

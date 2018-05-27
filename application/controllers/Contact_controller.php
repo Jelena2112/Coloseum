@@ -3,8 +3,9 @@
 
     class Contact_controller extends CI_Controller
     {
+        private $data = ["page" =>"pages/contact"];
         public function index()
         {
-            $this->load->view('index');
+            $this->load->view('index' , $this->data);
         }
     }
