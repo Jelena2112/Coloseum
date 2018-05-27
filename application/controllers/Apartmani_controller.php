@@ -9,4 +9,9 @@ class Apartmani_controller extends CI_Controller
     {
         $this->load->view("index", $this->data);
     }
+
+    public function poseban_apartman($imeApartmana)
+    {
+        echo $imeApartmana;
+    }
 }

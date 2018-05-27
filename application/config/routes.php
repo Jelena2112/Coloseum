@@ -3,7 +3,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $route['default_controller'] = 'welcome_controller';
 $route['home'] = 'welcome_controller';
+
 $route['apartmani'] = "apartmani_controller";
+$route['apartmani/(:any)'] = "apartmani_controller/poseban_apartman/$1";
+
 $route['contact'] = 'contact_controller';
 
 
