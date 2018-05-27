@@ -1,7 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'welcome_controller';
+$route['home'] = 'welcome_controller';
 $route['apartmani'] = "apartmani_controller";
 $route['contact'] = 'contact_controller';
 
