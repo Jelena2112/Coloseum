@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 $route['default_controller'] = 'welcome';
-$route['apartmani'] = "welcome/apartmani";
+$route['apartmani'] = "apartmani_controller";
 
 
 
