@@ -8,6 +8,10 @@ class About_controller extends CI_Controller
 
     public function index()
     {
+        $this->load->model("about_model");
+        #$porukica = $this->about_model->getAbout();
+        $this->data['poruka'] = $this->about_model->getAbout();
+
         $this->load->view("index" , $this->data);
     }
 }
