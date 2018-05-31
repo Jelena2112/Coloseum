@@ -14,4 +14,9 @@ class Admin_controller extends CI_Controller
         $this->data["page"] = "pages/admin/apartmani";
         $this->load->view("index", $this->data);
     }
+    public function obrisi_apartman()
+    {
+        $this->data["page"] = "pages/admin/apartmani";
+        $this->load->view("index", $this->data);
+    }
 }
