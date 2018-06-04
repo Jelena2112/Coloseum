@@ -11,3 +11,4 @@ class Activities_controller extends CI_Controller
         $this->load->view("index" , $this->data);
     }
 }
+

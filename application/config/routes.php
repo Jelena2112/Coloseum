@@ -11,12 +11,15 @@ $route['contact'] = 'contact_controller';
 
 $route["about"] = "about_controller";
 
+/* Activities rute */
 $route["activities"] = "activities_controller";
 
 /* Admin rute */
 $route['admin'] = "admin_controller";
 $route["admin/apartman/dodaj"] = "admin_controller/dodaj_apartman";
 $route["admin/apartman/obrisi"] = "admin_controller/obrisi_apartman";
+$route["admin/activiti/dodaj"] = "admin_controller/dodaj_activiti";
+$route["admin/activiti/obrisi"] = "admin_controller/obrisi_activiti";
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
