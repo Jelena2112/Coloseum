@@ -29,6 +29,6 @@ class Admin_controller extends CI_Controller
     public function obrisi_activity()
     {
         $this->data["page"] = "pages/admin/activities";
-        $this->load->view("index" , $this->data);
+        $this->load->view("index" ,   $this->data);
     }
 }
