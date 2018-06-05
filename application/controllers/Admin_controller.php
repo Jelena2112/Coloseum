@@ -20,13 +20,13 @@ class Admin_controller extends CI_Controller
         $this->load->view("index", $this->data);
     }
 
-    public function dodaj_activiti()
+    public function dodaj_activity()
     {
         $this->data["page"] = "pages/admin/activities";
         $this->load->view("index" , $this->data);
     }
 
-    public function obrisi_activiti()
+    public function obrisi_activity()
     {
         $this->data["page"] = "pages/admin/activities";
         $this->load->view("index" , $this->data);

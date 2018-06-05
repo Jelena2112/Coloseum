@@ -18,8 +18,8 @@ $route["activities"] = "activities_controller";
 $route['admin'] = "admin_controller";
 $route["admin/apartman/dodaj"] = "admin_controller/dodaj_apartman";
 $route["admin/apartman/obrisi"] = "admin_controller/obrisi_apartman";
-$route["admin/activiti/dodaj"] = "admin_controller/dodaj_activiti";
-$route["admin/activiti/obrisi"] = "admin_controller/obrisi_activiti";
+$route["admin/activity/dodaj"] = "admin_controller/dodaj_activity";
+$route["admin/activity/obrisi"] = "admin_controller/obrisi_activity";
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
