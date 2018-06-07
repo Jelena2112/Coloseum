@@ -31,4 +31,16 @@ class Admin_controller extends CI_Controller
         $this->data["page"] = "pages/admin/activities";
         $this->load->view("index" ,   $this->data);
     }
+
+    public function dodaj_comment()
+    {
+        $this->data["page"] = "pages/admin/comment";
+        $this->load->view("index" , $this->data);
+    }
+
+    public function obrisi_comment()
+    {
+        $this->data["page"] = "pages/admin/comment";
+        $this->load->view("index" , $this->data);
+    }
 }

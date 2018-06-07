@@ -14,6 +14,8 @@ $route["about"] = "about_controller";
 /* Activities rute */
 $route["activities"] = "activities_controller";
 
+$route["comment"] = "comment_controller";
+
 /* Admin rute */
 $route['admin'] = "admin_controller";
 $route["admin/apartman/dodaj"] = "admin_controller/dodaj_apartman";
