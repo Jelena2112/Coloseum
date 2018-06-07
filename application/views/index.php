@@ -13,7 +13,7 @@
     <body class="container-fluid">
         <?php $this->load->view("partials/header"); ?>
         <?php $this->load->view($page); ?>
-        <?php echo $poruka; ?>
+        <?php if(isset($poruka)){ echo $poruka;} ?>
         <?php $this->load->view("partials/footer"); ?>
     </body>
 </html>
