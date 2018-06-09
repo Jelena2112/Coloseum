@@ -7,6 +7,7 @@ class Apartmani_controller extends CI_Controller
     private $data = ["page" => "pages/apartmani"];
     public function index()
     {
+        $this->load->model("apartmani_model");
         $this->load->view("index", $this->data);
     }
 
