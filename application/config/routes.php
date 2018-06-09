@@ -23,5 +23,10 @@ $route["admin/apartman/obrisi"] = "admin_controller/obrisi_apartman";
 $route["admin/activity/dodaj"] = "admin_controller/dodaj_activity";
 $route["admin/activity/obrisi"] = "admin_controller/obrisi_activity";
 
+/* API rute */
+$route["api/users/get_all"]             = "api_controller/getUsers";
+$route["api/users/get/(:any)"]          = "api_controller/getUser/$1";
+
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
