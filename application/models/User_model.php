@@ -7,14 +7,14 @@ class User_model extends CI_Model
 
     public function getAll()
     {
-        $rezultat = $this->db->get('users'); // SELECT * FROM users
+        $rezultat = $this->db->select('ID, name')->get('users'); // SELECT * FROM users
         return $rezultat->result();
     }
 
     public function get($ime)
     {
         $query      = ['name' => $ime]; // SELECT * FROM users WHERE name = $ime
-        $rezultat   = $this->db->get_where('users',$query);
+        $rezultat   = $this->db->select('ID, name')->get_where('users',$query);
 
         if($rezultat->num_rows() < 1 )
             return "Nije pronadjen korisnik  $ime";
