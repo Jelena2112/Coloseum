@@ -17,7 +17,7 @@ class User_model extends CI_Model
         $rezultat   = $this->db->get_where('users',$query);
 
         if($rezultat->num_rows() < 1 )
-            return "Nije pronadjen korisnik $ime";
+            return "Nije pronadjen korisnik  $ime";
 
 
         return $rezultat->result();
