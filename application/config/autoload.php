@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Instructions
 | -------------------------------------------------------------------
 |
-| These are the things you can load automatically:
+| These are the things you can load automatically:"
 |
 | 1. Packages
 | 2. Libraries
@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array();
+$autoload['libraries'] = array("database");
 
 /*
 | -------------------------------------------------------------------
